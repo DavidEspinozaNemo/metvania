@@ -3,7 +3,7 @@ function love.load()
 	dx = 1
 	dy = 1
 	r, g, b = 0,0,0
-	sound = love.audio.newSource("main.wav", "stream")
+	sound = love.audio.newSource("main.mp3", "stream")
 	sound:setLooping(true)
 	sound:play()
 end
